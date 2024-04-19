@@ -1,2 +1,36 @@
 # PSClippy.FBP.GeneralAdvice
-FeedBackProvider which points to general best practies while writing scripts
+
+## The general advice FeedbackProvider, for better implementing CrossPlatform Scripts: PSClippy - General Advice
+
+### For getting advices to implement best practices, while scripting
+
+![Logo](logo.jpg)
+
+#### How it works
+
+- Install module 'PSClippy.FBP.GeneralAdvice'
+- Install module [ScriptFeedbackProvider](https://github.com/JustinGrote/ScriptFeedbackProvider/tree/main) by Justin Grote
+- Import module 'PSClippy.FBP.GeneralAdvice'
+- Enable Experimental-Feature **PSFeedbackProvider**
+- Start Scripting
+
+
+#### Demo Time
+
+![DemoTime](DemoTime.png)
+
+#### Covered Topics
+
+- Foo
+- Bar
+
+#### How to contribute
+
+Found an edge case what my providers are missing?
+Have a good idea a topic which is not coved? Feel free to create an issue and I will try to implement it as soon as possible.
+
+#### Side Notes
+
+This module came up based on a sessions I´ve seen at the PowerShell + Devops Global Summit in 2024.
+
+[Justin Grote](https://github.com/JustinGrote) introduces in his session how FeedbackProvider in PowerShell works and he showed his ScriptFeedBackProvider Module.
