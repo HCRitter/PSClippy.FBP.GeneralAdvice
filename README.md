@@ -1,6 +1,6 @@
 # PSClippy.FBP.GeneralAdvice
 
-## The general advice FeedbackProvider, for better implementing CrossPlatform Scripts: PSClippy - General Advice
+## The general advice FeedbackProvider, for general best practices: PSClippy - General Advice
 
 ### For getting advices to implement best practices, while scripting
 
