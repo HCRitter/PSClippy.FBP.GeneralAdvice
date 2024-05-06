@@ -1,5 +1,6 @@
 using namespace System.Management.Automation.Subsystem.Feedback
 
+
 try {
     if($null -ne (Get-Module -Name ScriptFeedbackProvider)){
         Import-Module ScriptFeedbackProvider -ErrorAction Stop
@@ -31,4 +32,15 @@ foreach($ProviderFile in (Get-Childitem -Path "$PSSCriptroot\Private\")){
     Get-ScriptFeedbackProvider |Where-Object Name -eq $ProviderName | Unregister-ScriptFeedbackProvider
     Register-ScriptFeedbackProvider -Name $ProviderName -Trigger Success -ScriptBlock $ProviderScriptblock
 }
-Write-Host 'FeedbackProvider(s) for CrossPlattform has been registered' -ForegroundColor Green
+
+Write-Host 'FeedbackProvider(s) for General Advices has been registered' -ForegroundColor Green
+write-host @"
+ __                 
+/  \        _____________ 
+|  |       /             \
+@  @       | It looks    |
+|| ||      | like you're |
+|| ||   <--| writing a   |
+|\_/|      | >_ script!  |
+\___/      \_____________/
+"@
