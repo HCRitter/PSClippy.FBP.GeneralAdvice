@@ -14,7 +14,6 @@
 - Enable Experimental-Feature **PSFeedbackProvider**
 - Start Scripting
 
-
 #### Demo Time
 
 ![DemoTime](DemoTime.jpg)
@@ -22,6 +21,8 @@
 #### Covered Topics
 
 - Format on the right *Inspired by [Justin Grote](https://gist.github.com/JustinGrote/0bcb1a2960eae77aca2d6c5058b944b1)*
+- Filter left *Inspired by [Adam Bertram](https://adamtheautomator.com/) by this [tweet](https://x.com/adbertram/status/1787078499058262160)*
+- $Null comparison on the left *Inspired by [Daniel Schroeder](https://blog.danskingdom.com/about/) by his [TiPS](https://github.com/deadlydog/PowerShell.tiPS) module*
 
 #### How to contribute
 
