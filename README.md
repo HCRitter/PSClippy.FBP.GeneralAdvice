@@ -11,7 +11,7 @@
 - Install module 'PSClippy.FBP.GeneralAdvice'
 - Install module [ScriptFeedbackProvider](https://github.com/JustinGrote/ScriptFeedbackProvider/tree/main) by Justin Grote
 - Import module 'PSClippy.FBP.GeneralAdvice'
-- Enable Experimental-Feature **PSFeedbackProvider**
+- Enable-ExperimentalFeature **PSFeedbackProvider**
 - Start Scripting
 
 #### Demo Time
@@ -27,7 +27,7 @@
 #### How to contribute
 
 Found an edge case what my providers are missing?
-Have a good idea a topic which is not coved? Feel free to create an issue and I will try to implement it as soon as possible.
+Have a good idea a topic which is not covered? Feel free to create an issue and I will try to implement it as soon as possible.
 
 #### Side Notes
 
