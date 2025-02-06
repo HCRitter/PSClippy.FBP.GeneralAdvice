@@ -5,7 +5,7 @@ if ($context) {
         '^\$[a-z]+_[a-z]+(?:_[a-z]+)*\s*=.*$'{
             [PSCustomObject]@{
                 Command     = "Execution:`t"+$_
-                Advisement  = "Replace:`t`t snake case variable with pascale case: $(
+                Advisement  = "Replace:`t`t snake case variable with pascal case: $(
                     -join $(($_.split('=')[0])).split('_').ForEach({
                         (Get-Culture).TextInfo.ToTitleCase($_)
                     })
